@@ -9,7 +9,7 @@
 #![feature(rustc_private)]
 #![feature(set_stdio)]
 
-extern crate syntax;
+use std::rustc-ap-syntax as syntax
 extern crate libc;
 
 mod api;
